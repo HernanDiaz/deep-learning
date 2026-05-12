@@ -8,7 +8,7 @@
 **Algoritmos, Arquitecturas y Aplicaciones Prácticas en Python**
 por **Hernán Díaz Rodríguez, PhD** — Profesor en la Universidad de Oviedo · Ex-investigador del CERN
 
-[![Stars](https://img.shields.io/github/stars/HernanDiaz/introduccion-deep-learning?style=social)](https://github.com/HernanDiaz/introduccion-deep-learning)
+[![Stars](https://img.shields.io/github/stars/HernanDiaz/deep-learning?style=social)](https://github.com/HernanDiaz/deep-learning)
 [![Licencia: CC BY-NC 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
 [![Comprar en Amazon](https://img.shields.io/badge/Amazon.es-Comprar%20el%20libro-orange?logo=amazon)](https://www.amazon.es/dp/B0G1HG2CY6)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?logo=linkedin)](https://www.linkedin.com/in/hernandiazrodriguez)
@@ -26,7 +26,23 @@ Este repositorio contiene los **20 cuadernos interactivos** del libro, listos pa
 > 📕 **Disponible en español e inglés** en Amazon, en tapa blanda y Kindle.
 > 👉 [Compra el libro en Amazon](https://www.amazon.es/dp/B0G1HG2CY6) · [Página del autor](https://www.amazon.es/Hernan-Diaz-Rodriguez/e/B0GD8JQ9JB)
 
-> 🇬🇧 Prefer the notebooks in English? They are available at [`deep-learning`](https://github.com/HernanDiaz/deep-learning).
+> 🇬🇧 **Prefer the notebooks in English?** They are available in the [`/en`](./en) folder.
+
+---
+
+## 📂 Estructura del repositorio
+
+```
+deep-learning/
+├── 1_El_perceptron.ipynb         ← Cuadernos en español (raíz)
+├── 2_Perceptron_multicapa.ipynb
+├── ...
+├── 20_Proximal_Policy_Optimization.ipynb
+└── en/                            ← English notebooks
+    ├── 1_Perceptron.ipynb
+    ├── 2_Multilayer_Perceptron.ipynb
+    └── ...
+```
 
 ---
 
@@ -57,26 +73,26 @@ El libro y los cuadernos están organizados en **5 partes**:
 
 | Cap. | Título | Colab | Vídeo |
 |------|--------|-------|-------|
-| 1 | Perceptrón y Redes Básicas | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/1_El_perceptron.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Ijku90nKThk) |
-| 2 | Redes Feedforward y MLP | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/2_Perceptron_multicapa.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/kWLW1ByUSjM) |
-| 3 | Regresión con Keras | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/3_Regresion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/RXZTqe2WwBA) |
-| 4 | Clasificación Multiclase | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/4_Clasificacion_multiclase.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/xnhHdtp-KDw) |
-| 5 | Regularización e Hiperparámetros | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/5_Regularización_y_configuración_de_hiperparametros.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Yim0IDVUujs) |
-| 6 | Redes Convolucionales (CNN) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/6_Redes_Convolucionales_CNN.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/DYAKMFhRoxI) |
-| 7 | Aprendizaje por Transferencia | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/7_Aprendizaje_por_transferencia.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/2N6qwsmhXBE) |
-| 8 | Segmentación con UNET | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/8_Segmentacion_UNET.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/DOOmfMOyvOI) |
-| 9 | Detección de Objetos (YOLO) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/9_Deteccion_de_objetos_con_YOLO.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/ersYGhxJopY) |
-| 10 | El Mecanismo de Atención | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/10_El_mecanismo_de_atencion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/breq_qgXc2Y) |
-| 11 | Transformer | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/11_Transformer.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Wz-92p5RnH8) |
-| 12 | Generative Pre-trained Transformer (GPT) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/12_Generative_Pre_trained_Transformer_GPT.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Ifvt5R1PKrU) |
-| 13 | Modelos Multimodales (CLIP) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/13_Modelos_multimodales_CLIP.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/nIrwzqisqSM) |
-| 14 | Redes Generativas Adversarias (GAN) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/14_Redes_Generativas_Adversarias_GAN.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Yp5KnHBkR-4) |
-| 15 | Modelos de Difusión (Stable Diffusion) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/15_Modelos_de_difusion_Stable_Diffusion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/gtPzjlAVuhc) |
-| 16 | Aprendizaje por Refuerzo: Exploración vs Explotación | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/16_Aprendizaje_por_refuerzo_Explotacion_vs_Exploracion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/4lZFlqrrIIA) |
-| 17 | Procesos de Decisión de Markov | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/17_Procesos_de_decisión_de_Markov.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/w0nQvKV-Y3c) |
-| 18 | Q-Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/18_Q_Learning.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/jIAsCnooP10) |
-| 19 | Deep Q-Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/19_Deep_Q_Learning.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/rm3FeCXAL_0) |
-| 20 | Proximal Policy Optimization (PPO) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/introduccion-deep-learning/blob/main/20_Proximal_Policy_Optimization.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/LpFfeFrCuf0) |
+| 1 | Perceptrón y Redes Básicas | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/1_El_perceptron.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Ijku90nKThk) |
+| 2 | Redes Feedforward y MLP | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/2_Perceptron_multicapa.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/kWLW1ByUSjM) |
+| 3 | Regresión con Keras | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/3_Regresion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/RXZTqe2WwBA) |
+| 4 | Clasificación Multiclase | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/4_Clasificacion_multiclase.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/xnhHdtp-KDw) |
+| 5 | Regularización e Hiperparámetros | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/5_Regularización_y_configuración_de_hiperparametros.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Yim0IDVUujs) |
+| 6 | Redes Convolucionales (CNN) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/6_Redes_Convolucionales_CNN.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/DYAKMFhRoxI) |
+| 7 | Aprendizaje por Transferencia | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/7_Aprendizaje_por_transferencia.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/2N6qwsmhXBE) |
+| 8 | Segmentación con UNET | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/8_Segmentacion_UNET.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/DOOmfMOyvOI) |
+| 9 | Detección de Objetos (YOLO) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/9_Deteccion_de_objetos_con_YOLO.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/ersYGhxJopY) |
+| 10 | El Mecanismo de Atención | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/10_El_mecanismo_de_atencion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/breq_qgXc2Y) |
+| 11 | Transformer | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/11_Transformer.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Wz-92p5RnH8) |
+| 12 | Generative Pre-trained Transformer (GPT) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/12_Generative_Pre_trained_Transformer_GPT.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Ifvt5R1PKrU) |
+| 13 | Modelos Multimodales (CLIP) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/13_Modelos_multimodales_CLIP.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/nIrwzqisqSM) |
+| 14 | Redes Generativas Adversarias (GAN) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/14_Redes_Generativas_Adversarias_GAN.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/Yp5KnHBkR-4) |
+| 15 | Modelos de Difusión (Stable Diffusion) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/15_Modelos_de_difusion_Stable_Diffusion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/gtPzjlAVuhc) |
+| 16 | Aprendizaje por Refuerzo: Exploración vs Explotación | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/16_Aprendizaje_por_refuerzo_Explotacion_vs_Exploracion.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/4lZFlqrrIIA) |
+| 17 | Procesos de Decisión de Markov | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/17_Procesos_de_decisión_de_Markov.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/w0nQvKV-Y3c) |
+| 18 | Q-Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/18_Q_Learning.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/jIAsCnooP10) |
+| 19 | Deep Q-Learning | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/19_Deep_Q_Learning.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/rm3FeCXAL_0) |
+| 20 | Proximal Policy Optimization (PPO) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HernanDiaz/deep-learning/blob/main/20_Proximal_Policy_Optimization.ipynb) | [![YouTube](https://img.shields.io/badge/YouTube-Vídeo-red?logo=youtube)](https://youtu.be/LpFfeFrCuf0) |
 
 ---
 
@@ -127,7 +143,7 @@ Si utilizas este material en un trabajo académico, por favor cita:
   title     = {Introducci{\'o}n a Deep Learning: Algoritmos, Arquitecturas y Aplicaciones Pr{\'a}cticas en Python},
   year      = {2025},
   publisher = {Publicaci{\'o}n independiente},
-  url       = {https://github.com/HernanDiaz/introduccion-deep-learning}
+  url       = {https://github.com/HernanDiaz/deep-learning}
 }
 ```
 
