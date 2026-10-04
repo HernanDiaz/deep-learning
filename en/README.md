@@ -1,19 +1,17 @@
+<!-- Header in HTML: GitHub Pages does not render Markdown inside a <div>; this way it looks the same on both sites. -->
 <div align="center">
-
-# Deep Learning with Python 🧠
-### *From the Perceptron to Stable Diffusion · A Hands-On Journey through Modern AI*
-
-<img src="cover.png" alt="Book cover" width="280">
-
-**Algorithms, Architectures, and Practical Applications**
-by **Hernán Díaz Rodríguez, PhD** — Professor at the University of Oviedo · Former CERN researcher
-
-[![Stars](https://img.shields.io/github/stars/HernanDiaz/deep-learning?style=social)](https://github.com/HernanDiaz/deep-learning)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Buy on Amazon ES](https://img.shields.io/badge/Amazon.es-Buy%20the%20book-orange?logo=amazon)](https://www.amazon.es/dp/B0G1HG2CY6)
-[![Buy on Amazon US](https://img.shields.io/badge/Amazon.com-Buy%20the%20book-orange?logo=amazon)](https://www.amazon.com/dp/B0G1HG2CY6)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/hernandiazrodriguez)
-
+  <h1>Deep Learning with Python 🧠</h1>
+  <h3><em>From the Perceptron to Stable Diffusion · A Hands-On Journey through Modern AI</em></h3>
+  <p><img src="cover.png" alt="Book cover" width="280"></p>
+  <p><strong>Algorithms, Architectures, and Practical Applications</strong>
+  by <strong>Hernán Díaz Rodríguez, PhD</strong> — Professor at the University of Oviedo · Former CERN researcher</p>
+  <p>
+    <a href="https://github.com/HernanDiaz/deep-learning"><img src="https://img.shields.io/github/stars/HernanDiaz/deep-learning?style=social" alt="Stars"></a>
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
+    <a href="https://www.amazon.es/dp/B0G1HG2CY6"><img src="https://img.shields.io/badge/Amazon.es-Buy%20the%20book-orange?logo=amazon" alt="Buy on Amazon ES"></a>
+    <a href="https://www.amazon.com/dp/B0G1HG2CY6"><img src="https://img.shields.io/badge/Amazon.com-Buy%20the%20book-orange?logo=amazon" alt="Buy on Amazon US"></a>
+    <a href="https://www.linkedin.com/in/hernandiazrodriguez"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn"></a>
+  </p>
 </div>
 
 ---

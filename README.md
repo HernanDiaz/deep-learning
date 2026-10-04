@@ -1,18 +1,16 @@
+<!-- Encabezado en HTML: GitHub Pages no interpreta Markdown dentro de un <div>, y así se ve igual en los dos sitios. -->
 <div align="center">
-
-# Introducción a Deep Learning 📘
-### *Del Perceptrón a Stable Diffusion · Un recorrido práctico por la IA moderna*
-
-<img src="portada.png" alt="Portada del libro" width="280">
-
-**Algoritmos, Arquitecturas y Aplicaciones Prácticas en Python**
-por **Hernán Díaz Rodríguez, PhD** — Profesor en la Universidad de Oviedo · Ex-investigador del CERN
-
-[![Stars](https://img.shields.io/github/stars/HernanDiaz/deep-learning?style=social)](https://github.com/HernanDiaz/deep-learning)
-[![Licencia: CC BY-NC 4.0](https://img.shields.io/badge/Licencia-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
-[![Comprar en Amazon](https://img.shields.io/badge/Amazon.es-Comprar%20el%20libro-orange?logo=amazon)](https://www.amazon.es/dp/B0G1HG2CY6)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue?logo=linkedin)](https://www.linkedin.com/in/hernandiazrodriguez)
-
+  <h1>Introducción a Deep Learning 📘</h1>
+  <h3><em>Del Perceptrón a Stable Diffusion · Un recorrido práctico por la IA moderna</em></h3>
+  <p><img src="portada.png" alt="Portada del libro" width="280"></p>
+  <p><strong>Algoritmos, Arquitecturas y Aplicaciones Prácticas en Python</strong>
+  por <strong>Hernán Díaz Rodríguez, PhD</strong> — Profesor en la Universidad de Oviedo · Ex-investigador del CERN</p>
+  <p>
+    <a href="https://github.com/HernanDiaz/deep-learning"><img src="https://img.shields.io/github/stars/HernanDiaz/deep-learning?style=social" alt="Stars"></a>
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.es"><img src="https://img.shields.io/badge/Licencia-CC%20BY--NC%204.0-lightgrey.svg" alt="Licencia: CC BY-NC 4.0"></a>
+    <a href="https://www.amazon.es/dp/B0G1HG2CY6"><img src="https://img.shields.io/badge/Amazon.es-Comprar%20el%20libro-orange?logo=amazon" alt="Comprar en Amazon"></a>
+    <a href="https://www.linkedin.com/in/hernandiazrodriguez"><img src="https://img.shields.io/badge/LinkedIn-Conectar-blue?logo=linkedin" alt="LinkedIn"></a>
+  </p>
 </div>
 
 ---
